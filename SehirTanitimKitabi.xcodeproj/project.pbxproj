@@ -1,0 +1,371 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B463DC892A56DA3900B0546B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B463DC882A56DA3900B0546B /* AppDelegate.swift */; };
+		B463DC8B2A56DA3900B0546B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B463DC8A2A56DA3900B0546B /* SceneDelegate.swift */; };
+		B463DC8D2A56DA3900B0546B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B463DC8C2A56DA3900B0546B /* ViewController.swift */; };
+		B463DC902A56DA3900B0546B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B463DC8E2A56DA3900B0546B /* Main.storyboard */; };
+		B463DC922A56DA3A00B0546B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B463DC912A56DA3A00B0546B /* Assets.xcassets */; };
+		B463DC952A56DA3A00B0546B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B463DC932A56DA3A00B0546B /* LaunchScreen.storyboard */; };
+		B463DC9D2A56DE7D00B0546B /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B463DC9C2A56DE7D00B0546B /* DetailsViewController.swift */; };
+		B463DC9F2A56E8AD00B0546B /* Sehir.swift in Sources */ = {isa = PBXBuildFile; fileRef = B463DC9E2A56E8AD00B0546B /* Sehir.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B463DC852A56DA3900B0546B /* SehirTanitimKitabi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SehirTanitimKitabi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B463DC882A56DA3900B0546B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B463DC8A2A56DA3900B0546B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		B463DC8C2A56DA3900B0546B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B463DC8F2A56DA3900B0546B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B463DC912A56DA3A00B0546B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B463DC942A56DA3A00B0546B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B463DC962A56DA3A00B0546B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B463DC9C2A56DE7D00B0546B /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
+		B463DC9E2A56E8AD00B0546B /* Sehir.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sehir.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B463DC822A56DA3900B0546B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B463DC7C2A56DA3900B0546B = {
+			isa = PBXGroup;
+			children = (
+				B463DC872A56DA3900B0546B /* SehirTanitimKitabi */,
+				B463DC862A56DA3900B0546B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B463DC862A56DA3900B0546B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B463DC852A56DA3900B0546B /* SehirTanitimKitabi.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B463DC872A56DA3900B0546B /* SehirTanitimKitabi */ = {
+			isa = PBXGroup;
+			children = (
+				B463DC882A56DA3900B0546B /* AppDelegate.swift */,
+				B463DC8A2A56DA3900B0546B /* SceneDelegate.swift */,
+				B463DC8C2A56DA3900B0546B /* ViewController.swift */,
+				B463DC8E2A56DA3900B0546B /* Main.storyboard */,
+				B463DC912A56DA3A00B0546B /* Assets.xcassets */,
+				B463DC932A56DA3A00B0546B /* LaunchScreen.storyboard */,
+				B463DC962A56DA3A00B0546B /* Info.plist */,
+				B463DC9C2A56DE7D00B0546B /* DetailsViewController.swift */,
+				B463DC9E2A56E8AD00B0546B /* Sehir.swift */,
+			);
+			path = SehirTanitimKitabi;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B463DC842A56DA3900B0546B /* SehirTanitimKitabi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B463DC992A56DA3A00B0546B /* Build configuration list for PBXNativeTarget "SehirTanitimKitabi" */;
+			buildPhases = (
+				B463DC812A56DA3900B0546B /* Sources */,
+				B463DC822A56DA3900B0546B /* Frameworks */,
+				B463DC832A56DA3900B0546B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SehirTanitimKitabi;
+			productName = SehirTanitimKitabi;
+			productReference = B463DC852A56DA3900B0546B /* SehirTanitimKitabi.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B463DC7D2A56DA3900B0546B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					B463DC842A56DA3900B0546B = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = B463DC802A56DA3900B0546B /* Build configuration list for PBXProject "SehirTanitimKitabi" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B463DC7C2A56DA3900B0546B;
+			productRefGroup = B463DC862A56DA3900B0546B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B463DC842A56DA3900B0546B /* SehirTanitimKitabi */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B463DC832A56DA3900B0546B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B463DC952A56DA3A00B0546B /* LaunchScreen.storyboard in Resources */,
+				B463DC922A56DA3A00B0546B /* Assets.xcassets in Resources */,
+				B463DC902A56DA3900B0546B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B463DC812A56DA3900B0546B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B463DC8D2A56DA3900B0546B /* ViewController.swift in Sources */,
+				B463DC892A56DA3900B0546B /* AppDelegate.swift in Sources */,
+				B463DC8B2A56DA3900B0546B /* SceneDelegate.swift in Sources */,
+				B463DC9D2A56DE7D00B0546B /* DetailsViewController.swift in Sources */,
+				B463DC9F2A56E8AD00B0546B /* Sehir.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B463DC8E2A56DA3900B0546B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B463DC8F2A56DA3900B0546B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B463DC932A56DA3A00B0546B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B463DC942A56DA3A00B0546B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B463DC972A56DA3A00B0546B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B463DC982A56DA3A00B0546B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B463DC9A2A56DA3A00B0546B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V2K9QPZXN3;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SehirTanitimKitabi/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.furkancapkin.SehirTanitimKitabi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B463DC9B2A56DA3A00B0546B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V2K9QPZXN3;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SehirTanitimKitabi/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.furkancapkin.SehirTanitimKitabi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B463DC802A56DA3900B0546B /* Build configuration list for PBXProject "SehirTanitimKitabi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B463DC972A56DA3A00B0546B /* Debug */,
+				B463DC982A56DA3A00B0546B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B463DC992A56DA3A00B0546B /* Build configuration list for PBXNativeTarget "SehirTanitimKitabi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B463DC9A2A56DA3A00B0546B /* Debug */,
+				B463DC9B2A56DA3A00B0546B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B463DC7D2A56DA3900B0546B /* Project object */;
+}
