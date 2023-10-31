@@ -1,9 +1,6 @@
 //
 //  ViewController.swift
 //  SehirTanitimKitabi
-//
-//  Created by Furkan Çapkın on 6.07.2023.
-//
 
 import UIKit
 
