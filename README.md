@@ -3,8 +3,7 @@
 The topics I have learned while working on this project:
 
 1) Segue
-2) Class
-3) Optional 
+2) Optional 
 4) UITableView
 5) UINavigationController
 
